@@ -144,22 +144,6 @@ proxies:
       headers:
         Host: v2ray2.udpgw.com
     udp: true
-  - name: indo.qql.icu Ws
-    server: liveon.us.to
-    port: 8443
-    type: vmess
-    uuid: 70fda495-1591-4d8e-a0de-ba606b1c8ba5
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: indo.qql.icu
-    network: ws
-    ws-opts:
-      path: /vmess/
-      headers:
-        Host: indo.qql.icu
-    udp: true
   - name: herza1.wakuwaku gRPC
     server: liveon.us.to
     port: 443
@@ -235,7 +219,6 @@ proxy-groups:
     type: select
     proxies:
       - v2ray2.udpgw.com
-      - indo.qql.icu Ws
       - herza1.wakuwaku gRPC
       - premium.vpnstore28      
       - vpnstunnel-edssgln 
