@@ -144,22 +144,6 @@ proxies:
       headers:
         Host: v2ray2.udpgw.com
     udp: true
-  - name: indo.qql.icu Ws
-    server: axismusik.us.to
-    port: 8443
-    type: vmess
-    uuid: 70fda495-1591-4d8e-a0de-ba606b1c8ba5
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: indo.qql.icu
-    network: ws
-    ws-opts:
-      path: /vmess/
-      headers:
-        Host: indo.qql.icu
-    udp: true
   - name: herza1.wakuwaku gRPC
     server: axismusik.us.to
     port: 443
@@ -173,20 +157,6 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: vmess
-    udp: true
-  - name: premium.vpnstore28
-    server: axismusik.us.to
-    port: 443
-    type: vmess
-    uuid: 25cd7e24-0769-4fa6-8f80-e776598afab8
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: premium.vpnstore28.my.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: Vmess-GRPC
     udp: true
   - name: vpnstunnel-edssgln
     server: axismusik.us.to
@@ -244,21 +214,72 @@ proxies:
     grpc-opts:
       grpc-service-name: Vmess-GRPC
     udp: true
+  - name: vpnstunnel-edsidpc24
+    server: axismusik.us.to
+    port: 443
+    type: trojan
+    password: befe9d38-7579-4fa3-bec4-0ed4eb47f19b
+    skip-cert-verify: true
+    sni: id.josvpn.me
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan
+    udp: true
+  - name: vpnstunnel-edsjptr
+    server: axismusik.us.to
+    port: 443
+    type: trojan
+    password: 37e073a6-3c93-4571-8780-6eeac44a86c2
+    skip-cert-verify: true
+    sni: jp.josvpn.me
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: jp.josvpn.me
+    udp: true    
+  - name: harganya_10k
+    server: axismusik.us.to
+    port: 443
+    type: trojan
+    password: 5e5ed184-2cf3-4c25-8896-6946a879280a
+    skip-cert-verify: true
+    sni: xd.duniavpn.org
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true    
+  - name: id01.ucuy gRPC
+    server: axismusik.us.to
+    port: 443
+    type: vmess
+    uuid: 11c99170-1b06-40ec-840b-126c22b2dfe4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id01.ucuy.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
+    udp: true    
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: url-test
+    url: 'http://www.gstatic.com/generate_204'
     tolerance: 100
     interval: 300
     lazy: true
-    url: 'http://www.gstatic.com/generate_204'
     proxies:
       - v2ray2.udpgw.com
-      - indo.qql.icu Ws
-      - herza1.wakuwaku gRPC
-      - premium.vpnstore28      
+      - herza1.wakuwaku gRPC   
       - vpnstunnel-edssgln 
       - trojan2.udpgw.com
       - sg1-trojan.bonds.id
       - premium2.vpnstore28
+      - vpnstunnel-edsidpc24  
+      - vpnstunnel-edsjptr       
+      - harganya_10k    
+      - id01.ucuy gRPC           
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
