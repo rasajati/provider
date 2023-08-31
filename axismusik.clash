@@ -144,6 +144,22 @@ proxies:
       headers:
         Host: v2ray2.udpgw.com
     udp: true
+  - name: indo.qql.icu Ws
+    server: axismusik.us.to
+    port: 8443
+    type: vmess
+    uuid: 70fda495-1591-4d8e-a0de-ba606b1c8ba5
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: indo.qql.icu
+    network: ws
+    ws-opts:
+      path: /vmess/
+      headers:
+        Host: indo.qql.icu
+    udp: true
   - name: herza1.wakuwaku gRPC
     server: axismusik.us.to
     port: 443
@@ -214,16 +230,32 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
+  - name:  premium2.vpnstore28
+    server: axismusik.us.to
+    port: 443
+    type: vmess
+    uuid: 24d4f8fa-078e-48cf-9691-747b6099ef02
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: premium.vpnstore28.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: Vmess-GRPC
+    udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
       - v2ray2.udpgw.com
+      - indo.qql.icu Ws
       - herza1.wakuwaku gRPC
       - premium.vpnstore28      
       - vpnstunnel-edssgln 
       - trojan2.udpgw.com
       - sg1-trojan.bonds.id
+      - premium2.vpnstore28
       - DIRECT
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
