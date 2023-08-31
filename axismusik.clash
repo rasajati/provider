@@ -246,7 +246,11 @@ proxies:
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
-    type: select
+    type: url-test
+    tolerance: 100
+    interval: 300
+    lazy: true
+    url: 'http://www.gstatic.com/generate_204'
     proxies:
       - v2ray2.udpgw.com
       - indo.qql.icu Ws
@@ -256,6 +260,5 @@ proxy-groups:
       - trojan2.udpgw.com
       - sg1-trojan.bonds.id
       - premium2.vpnstore28
-      - DIRECT
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
