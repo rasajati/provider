@@ -265,7 +265,7 @@ proxies:
     udp: true    
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
-    type: url-test
+    type: select
     url: 'http://www.gstatic.com/generate_204'
     tolerance: 100
     interval: 300
