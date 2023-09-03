@@ -227,6 +227,32 @@ proxies:
     grpc-opts:
       grpc-service-name: Vmess-GRPC
     udp: true  
+  - name: vpnstunnel-edssgxtr
+    server: liveon.us.to
+    port: 443
+    type: trojan
+    password: 8b56b582-9a09-464b-a35f-30aeefc3ac40
+    skip-cert-verify: true
+    sni: xray.vpnjos.live
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: xray.vpnjos.live
+    udp: true
+  - name: vpnstunnel-edssgv2rtr2
+    server: liveon.us.to
+    port: 443
+    type: trojan
+    password: 874e7aeb-1cf5-4574-a699-f30c5312fb2c
+    skip-cert-verify: true
+    sni: vray.vpnjos.live
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: vray.vpnjos.live
+    udp: true    
 proxy-groups:
   - name: liveon.us.to
     type: select
@@ -242,5 +268,7 @@ proxy-groups:
       - sg1-trojan.bonds.id 
       - vpnstunnel-edsjptr       
       - vpnstoreVIP1    
+      - vpnstunnel-edssgxtr
+      - vpnstunnel-edssgv2rtr2
 rules:
   - MATCH,liveon.us.to
