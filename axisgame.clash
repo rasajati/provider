@@ -158,11 +158,11 @@ proxies:
     grpc-opts:
       grpc-service-name: vmess
     udp: true
-  - name: vpnstunnel-edssgln
+  - name: vpnstunnel-ypssgvms
     server: axisgame.us.to
     port: 443
     type: vmess
-    uuid: e36eb285-20da-4008-a45d-c28d0b674770
+    uuid: c451d318-67a2-4c09-b839-7fd04f616b61
     alterId: 0
     cipher: auto
     tls: true
@@ -200,31 +200,6 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
-  - name:  premium2.vpnstore28
-    server: axisgame.us.to
-    port: 443
-    type: vmess
-    uuid: 24d4f8fa-078e-48cf-9691-747b6099ef02
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: premium.vpnstore28.my.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: Vmess-GRPC
-    udp: true
-  - name: vpnstunnel-edsidpc24
-    server: axisgame.us.to
-    port: 443
-    type: trojan
-    password: befe9d38-7579-4fa3-bec4-0ed4eb47f19b
-    skip-cert-verify: true
-    sni: id.josvpn.me
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan
-    udp: true
   - name: vpnstunnel-edsjptr
     server: axisgame.us.to
     port: 443
@@ -238,34 +213,23 @@ proxies:
       headers:
         Host: jp.josvpn.me
     udp: true    
-  - name: harganya_10k
-    server: axisgame.us.to
-    port: 443
-    type: trojan
-    password: 5e5ed184-2cf3-4c25-8896-6946a879280a
-    skip-cert-verify: true
-    sni: xd.duniavpn.org
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
-    udp: true    
-  - name: id01.ucuy gRPC
+  - name: vpnstoreVIP1
     server: axisgame.us.to
     port: 443
     type: vmess
-    uuid: 11c99170-1b06-40ec-840b-126c22b2dfe4
+    uuid: 09a30d9b-6b66-4678-8e40-bcafd77f7c47
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id01.ucuy.my.id
+    servername: premium.vpnstore28.my.id
     network: grpc
     grpc-opts:
-      grpc-service-name: vmess-grpc
-    udp: true    
+      grpc-service-name: Vmess-GRPC
+    udp: true  
 proxy-groups:
-  - name: FASTSSH-SSHKIT-HOWDY
-    type: url-test
+  - name: axisgame.us.to
+    type: select
     url: 'http://www.gstatic.com/generate_204'
     tolerance: 100
     interval: 300
@@ -273,13 +237,10 @@ proxy-groups:
     proxies:
       - v2ray2.udpgw.com
       - herza1.wakuwaku gRPC   
-      - vpnstunnel-edssgln 
+      - vpnstunnel-ypssgvms
       - trojan2.udpgw.com
-      - sg1-trojan.bonds.id
-      - premium2.vpnstore28
-      - vpnstunnel-edsidpc24  
+      - sg1-trojan.bonds.id 
       - vpnstunnel-edsjptr       
-      - harganya_10k    
-      - id01.ucuy gRPC           
+      - vpnstoreVIP1    
 rules:
-  - MATCH,FASTSSH-SSHKIT-HOWDY
+  - MATCH,axisgame.us.to
