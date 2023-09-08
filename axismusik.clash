@@ -157,6 +157,21 @@ proxies:
       headers:
         Host: aray.josvpn.me
     udp: true
+  - name: vpnstunnel-edsvray2vls
+    server: axismusik.us.to
+    port: 443
+    type: vless
+    uuid: 356201e8-dd6d-437b-9a60-3f8ebc125989
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aray.josvpn.me
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: aray.josvpn.me
+    udp: true
 proxy-groups:
   - name: AXISGAME-LB
     type: load-balance 
@@ -164,6 +179,7 @@ proxy-groups:
     disable-udp: false
     proxies:
       - vpnstunnel-edsvray2tr
-      - vpnstunnel-edsvray2vms
+      - vpnstunnel-edsvray2vms 
+      - vpnstunnel-edsvray2vls
 rules:
   - MATCH,AXISGAME-LB
