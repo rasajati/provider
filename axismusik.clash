@@ -3,7 +3,7 @@ socks-port: 7891
 redir-port: 7892
 mixed-port: 7893
 tproxy-port: 7895
-ipv6: true
+ipv6: false
 mode: rule
 log-level: silent
 allow-lan: true
@@ -16,7 +16,7 @@ profile:
   store-fake-ip: true
 dns:
   enable: true
-  ipv6: true
+  ipv6: false
   use-host: true
   enhanced-mode: fake-ip
   listen: 0.0.0.0:7874
@@ -128,119 +128,42 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: v2ray2.udpgw.com
-    server: axismusik.us.to
-    port: 443
-    type: vmess
-    uuid: 63293f40-6f39-46e1-9cb5-c8aeb512c9f7
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray2.udpgw.com
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: v2ray2.udpgw.com
-    udp: true
-  - name: herza1.wakuwaku gRPC
-    server: axismusik.us.to
-    port: 443
-    type: vmess
-    uuid: 2041237a-3042-49d7-ba1a-cc504f3b69d5
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: herza1.wakuwaku.my.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess
-    udp: true
-  - name: vpnstunnel-ypssgvms
-    server: axismusik.us.to
-    port: 443
-    type: vmess
-    uuid: c451d318-67a2-4c09-b839-7fd04f616b61
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ray.vpnjos.live
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: ray.vpnjos.live
-    udp: true
-  - name: trojan2.udpgw.com
+  - name: vpnstunnel-edsvray2tr
     server: axismusik.us.to
     port: 443
     type: trojan
-    password: eabf3170-45c0-11ee-8469-1239d0255272
+    password: c7d66ce7-bddb-4d73-b216-2a2d06a70daa
     skip-cert-verify: true
-    sni: trojan2.udpgw.com
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: trojan2.udpgw.com
-    udp: true
-  - name: sg1-trojan.bonds.id
-    server: axismusik.us.to
-    port: 443
-    type: trojan
-    password: 4e022120-462a-11ee-8768-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-  - name: vpnstunnel-edsjptr
-    server: axismusik.us.to
-    port: 443
-    type: trojan
-    password: 37e073a6-3c93-4571-8780-6eeac44a86c2
-    skip-cert-verify: true
-    sni: jp.josvpn.me
+    sni: aray.josvpn.me
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: jp.josvpn.me
-    udp: true    
-  - name: vpnstoreVIP1
+        Host: aray.josvpn.me
+    udp: true
+  - name: vpnstunnel-edsvray2vms
     server: axismusik.us.to
     port: 443
     type: vmess
-    uuid: 09a30d9b-6b66-4678-8e40-bcafd77f7c47
+    uuid: e7fea9c6-0856-498d-86ae-8fb61736f58f
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: premium.vpnstore28.my.id
-    network: grpc
-    grpc-opts:
-      grpc-service-name: Vmess-GRPC
-    udp: true  
+    servername: aray.josvpn.me
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: aray.josvpn.me
+    udp: true
 proxy-groups:
-  - name: axismusik.us.to
-    type: select
-    url: 'http://www.gstatic.com/generate_204'
-    tolerance: 100
-    interval: 300
-    lazy: true
+  - name: AXISGAME-LB
+    type: load-balance 
+    strategy: consistent-hashing
+    disable-udp: false
     proxies:
-      - v2ray2.udpgw.com
-      - herza1.wakuwaku gRPC   
-      - vpnstunnel-ypssgvms
-      - trojan2.udpgw.com
-      - sg1-trojan.bonds.id 
-      - vpnstunnel-edsjptr       
-      - vpnstoreVIP1    
+      - vpnstunnel-edsvray2tr
+      - vpnstunnel-edsvray2vms
 rules:
-  - MATCH,axismusik.us.to
+  - MATCH,AXISGAME-LB
