@@ -128,11 +128,11 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: vpnstunnel-edsvray2tr
+  - name: trojan
     server: axisgame.us.to
     port: 443
     type: trojan
-    password: c7d66ce7-bddb-4d73-b216-2a2d06a70daa
+    password: 6d847267-0a24-40ee-b3f7-3dbd6c41d261
     skip-cert-verify: true
     sni: aray.josvpn.me
     network: ws
@@ -141,7 +141,7 @@ proxies:
       headers:
         Host: aray.josvpn.me
     udp: true
-  - name: vpnstunnel-edsvray2vms
+  - name: vmess
     server: axisgame.us.to
     port: 443
     type: vmess
@@ -157,7 +157,7 @@ proxies:
       headers:
         Host: aray.josvpn.me
     udp: true
-  - name: vpnstunnel-edsvray2vls
+  - name: vless
     server: axisgame.us.to
     port: 443
     type: vless
@@ -178,8 +178,8 @@ proxy-groups:
     strategy: consistent-hashing
     disable-udp: false
     proxies:
-      - vpnstunnel-edsvray2tr
-      - vpnstunnel-edsvray2vms
-      - vpnstunnel-edsvray2vls
+      - trojan
+      - vmess
+      - vless
 rules:
   - MATCH,AXISGAME-LB
