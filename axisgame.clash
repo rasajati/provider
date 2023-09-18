@@ -157,11 +157,11 @@ proxies:
       headers:
         Host: aray.josvpn.me
     udp: true
-  - name: eds-vless
+  - name: edi-vless
     server: axisgame.us.to
     port: 443
     type: vless
-    uuid: 356201e8-dd6d-437b-9a60-3f8ebc125989
+    uuid: 98b7caeb-5487-4a61-a1c4-3d346d25cdf6
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -180,6 +180,6 @@ proxy-groups:
     proxies:
       - eds-trojan
       - edi-vmess
-      - eds-vless
+      - edi-vless
 rules:
   - MATCH,AXISGAME-LB
