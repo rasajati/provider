@@ -128,11 +128,11 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: vpnstunnel-edsvray2tr
+  - name: eds-trojan
     server: axismusik.us.to
     port: 443
     type: trojan
-    password: c7d66ce7-bddb-4d73-b216-2a2d06a70daa
+    password: faaa61f4-5c87-4ca0-8504-abb0175f8f98
     skip-cert-verify: true
     sni: aray.josvpn.me
     network: ws
@@ -141,11 +141,11 @@ proxies:
       headers:
         Host: aray.josvpn.me
     udp: true
-  - name: vpnstunnel-edsvray2vms
+  - name: edi-vmess
     server: axismusik.us.to
     port: 443
     type: vmess
-    uuid: e7fea9c6-0856-498d-86ae-8fb61736f58f
+    uuid: 4a741cfe-9d7b-4c7d-a392-65d412b86134
     alterId: 0
     cipher: auto
     tls: true
@@ -157,11 +157,11 @@ proxies:
       headers:
         Host: aray.josvpn.me
     udp: true
-  - name: vpnstunnel-edsvray2vls
+  - name: edi-vless
     server: axismusik.us.to
     port: 443
     type: vless
-    uuid: 356201e8-dd6d-437b-9a60-3f8ebc125989
+    uuid: 98b7caeb-5487-4a61-a1c4-3d346d25cdf6
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -173,13 +173,13 @@ proxies:
         Host: aray.josvpn.me
     udp: true
 proxy-groups:
-  - name: AXISGAME-LB
+  - name: AXIS-LB
     type: load-balance 
     strategy: consistent-hashing
     disable-udp: false
     proxies:
-      - vpnstunnel-edsvray2tr
-      - vpnstunnel-edsvray2vms 
-      - vpnstunnel-edsvray2vls
+      - eds-trojan
+      - edi-vmess
+      - edi-vless
 rules:
-  - MATCH,AXISGAME-LB
+  - MATCH,AXIS-LB
