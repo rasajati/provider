@@ -145,7 +145,7 @@ proxies:
     server: axisgame.us.to
     port: 443
     type: vmess
-    uuid: 671ed7c9-87b9-4dcb-b4c0-3d5cee81554b
+    uuid: ee1a7541-51a0-43fb-b384-edde9f44cfe2
     alterId: 0
     cipher: auto
     tls: true
