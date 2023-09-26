@@ -128,11 +128,11 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: edi-trojan
+  - name: eds-trojan
     server: axismusik.us.to
     port: 443
     type: trojan
-    password: 2aa90bda-1592-4459-bc08-bfbc67a653ea
+    password: 531f4328-9687-434b-a7b8-d4e5ec9cb0b6
     skip-cert-verify: true
     sni: aray.josvpn.me
     network: ws
@@ -145,7 +145,7 @@ proxies:
     server: axismusik.us.to
     port: 443
     type: vmess
-    uuid: 671ed7c9-87b9-4dcb-b4c0-3d5cee81554b
+    uuid: ee1a7541-51a0-43fb-b384-edde9f44cfe2
     alterId: 0
     cipher: auto
     tls: true
@@ -157,11 +157,11 @@ proxies:
       headers:
         Host: aray.josvpn.me
     udp: true
-  - name: edi-vless
+  - name: eds-vless
     server: axismusik.us.to
     port: 443
     type: vless
-    uuid: 98b7caeb-5487-4a61-a1c4-3d346d25cdf6
+    uuid: fa36060f-2228-4cfc-90ba-af2faeb7175e
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -173,13 +173,13 @@ proxies:
         Host: aray.josvpn.me
     udp: true
 proxy-groups:
-  - name: AXIS-LB
+  - name: AXISMUSIK-LB
     type: load-balance 
     strategy: consistent-hashing
     disable-udp: false
     proxies:
-      - edi-trojan
+      - eds-trojan
       - eds-vmess
-      - edi-vless
+      - eds-vless
 rules:
-  - MATCH,AXIS-LB
+  - MATCH,AXISMUSIK-LB
