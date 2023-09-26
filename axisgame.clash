@@ -128,7 +128,7 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: edi-trojan
+  - name: eds-trojan
     server: axisgame.us.to
     port: 443
     type: trojan
@@ -157,7 +157,7 @@ proxies:
       headers:
         Host: aray.josvpn.me
     udp: true
-  - name: edi-vless
+  - name: eds-vless
     server: axisgame.us.to
     port: 443
     type: vless
