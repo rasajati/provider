@@ -132,7 +132,7 @@ proxies:
     server: axisgame.us.to
     port: 443
     type: trojan
-    password: 2aa90bda-1592-4459-bc08-bfbc67a653ea
+    password: 531f4328-9687-434b-a7b8-d4e5ec9cb0b6
     skip-cert-verify: true
     sni: aray.josvpn.me
     network: ws
@@ -161,7 +161,7 @@ proxies:
     server: axisgame.us.to
     port: 443
     type: vless
-    uuid: 98b7caeb-5487-4a61-a1c4-3d346d25cdf6
+    uuid: fa36060f-2228-4cfc-90ba-af2faeb7175e
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -178,8 +178,8 @@ proxy-groups:
     strategy: consistent-hashing
     disable-udp: false
     proxies:
-      - edi-trojan
+      - eds-trojan
       - eds-vmess
-      - edi-vless
+      - eds-vless
 rules:
   - MATCH,AXISGAME-LB
