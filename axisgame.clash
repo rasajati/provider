@@ -128,58 +128,71 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: edi-trojan
-    server: axisgame.us.to
-    port: 443
-    type: trojan
-    password: 85f566a4-4e97-4e65-bbc3-3417b36086f1
-    skip-cert-verify: true
-    sni: aray.josvpn.me
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: aray.josvpn.me
-    udp: true
-  - name: eds-vmess
-    server: axisgame.us.to
+  - name: 104.18.22.136
+    server: 104.18.22.136
     port: 443
     type: vmess
-    uuid: ee1a7541-51a0-43fb-b384-edde9f44cfe2
+    uuid: c2674307-421e-4fea-b32f-d30004ccc16a
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: aray.josvpn.me
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: aray.josvpn.me
+    servername: fag7.alftunneling.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
     udp: true
-  - name: edi-vless
-    server: axisgame.us.to
+  - name: 104.18.20.94
+    server: 104.18.20.94
     port: 443
-    type: vless
-    uuid: e5bdbc23-3239-49aa-893f-ec82eb443271
+    type: vmess
+    uuid: c2674307-421e-4fea-b32f-d30004ccc16a
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: aray.josvpn.me
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: aray.josvpn.me
+    servername: fag7.alftunneling.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
     udp: true
+  - name: 104.19.186.16
+    server: 104.19.186.16
+    port: 443
+    type: vmess
+    uuid: c2674307-421e-4fea-b32f-d30004ccc16a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fag7.alftunneling.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
+    udp: true
+  - name: 104.16.51.111
+    server: 104.16.51.111
+    port: 443
+    type: vmess
+    uuid: c2674307-421e-4fea-b32f-d30004ccc16a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: fag7.alftunneling.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
+    udp: true            
 proxy-groups:
   - name: AXISGAME-LB
     type: load-balance 
     strategy: consistent-hashing
     disable-udp: false
     proxies:
-      - edi-trojan
-      - eds-vmess
-      - edi-vless
+      - 104.18.22.136
+      - 104.18.20.94
+      - 104.19.186.16
+      - 104.16.51.111
 rules:
   - MATCH,AXISGAME-LB
