@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTM3U x-tvg-url="https://onedrive.live.com/download?cid=89FC692214443EC7&resid=89FC692214443EC7%211147&authkey=AHU62CCm4ZyyY0w"   refresh="3600"
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rasajati/provider/main/xmltv.xml"   refresh="3600"
 
 #EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://mncvision.id/userfiles/image/channel/sctv.png" group-title="Lokal",SCTV
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
