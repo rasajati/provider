@@ -143,6 +143,9 @@ https://cempedak-live-cdn.mncnow.id/live/eds/BeritaSatu/sa_dash_vmx/BeritaSatu.m
 #EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://topcareer.id/wp-content/uploads/2020/07/Logo_bdg_tv_2016.png" group-title="Lokal",BandungTV
 https://cempedak-live-cdn.mncnow.id/live/eds/BandungTV/sa_dash_vmx/BandungTV.mpd
 
+#EXTINF:-1 tvg-name="MOJI" tvg-logo="https://i.ibb.co/SyXzvhs/Moji-hometv.jpg" group-title="Lokal",MOJI
+https://cdn08jtedge.indihometv.com/dassdvr/134/ochannel/manifest.mpd
+
 #EXTINF:-1 tvg-logo="https://cdn.cnnindonesia.com/cnnid/images/logo_cnn_fav.png" group-title="Lokal",CNN INDONESIA
 #EXTVLCOPT:http-referrer=https://www.cnnindonesia.com/
 #EXTVLCOPT:http-user-agent=Lavf/58.1
@@ -274,11 +277,11 @@ https://cdnjkt4.transvision.co.id:1000/live/master/2/4028c68572841ba301729d434e3
 #EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-user-agent=Lavf/58.1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJyYXNhamF0aV9zdGRAZ21haWwuY29tIiwic2Vzc2lvbklkIjoiZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SmpkWEp5Wlc1MFUyVnpjMmx2Ymtsa0lqb2lZalEzTkRFeFkyUXRObUZsWmkwME9XSTRMVGd6T0RBdFl6azFNakZpWXpFNE5UbGxJaXdpWTNWeWNtVnVkRVJsZG1salpWUjVjR1VpT2lKQklpd2lZM1Z5Y21WdWRGQnNZWFJtYjNKdFNXUWlPaUkwTURJNFl6WTROVGMwTlRNM1ptTmtNREUzTkdGbU5qYzFObUU1TkRJNE9DSXNJblJwYldWNmIyNWxJam9pUVhOcFlTOUtZV3RoY25SaElpd2lZWFYwYUc5eWFYUjVJam9pVWs5TVJWOVZVMFZTSWl3aVpYaHdJam94TnpBNE5qY3lNRFV5TENKMWMyVnlTV1FpT2lJME1ESTRORGhsTkRoa016TTBPR1UyTURFNFpHSmxOVE13TURJek5qTmtaU0lzSW1SbGRtbGpaVWxrSWpvaU1USXpORFUyTnpnNU1DSXNJbWxoZENJNk1UY3dPRFU0TlRZMU1pd2lkWE5sY201aGJXVWlPaUp5WVhOaGFtRjBhVjl6ZEdSQVoyMWhhV3d1WTI5dEluMC5pLURTekltYm1uZlB1ZFRSejlYWHhxbm42aHViZUtJbHVFdGdhWmdJeWZjIiwibWVyY2hhbnQiOiJnaWl0ZF90cmFuc3Zpc2lvbiJ9"}
+#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJpdGNvcmUubWFzdGVyX3N0MkB0cnYuY28uaWQiLCJzZXNzaW9uSWQiOiJleUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpJVXpJMU5pSjkuZXlKamRYSnlaVzUwVTJWemMybHZia2xrSWpvaU9EQm1abVZrWm1JdE56UXhNaTAwWm1NeUxXRTJPREV0TURSbE5UTTVNMlF5WW1GbUlpd2lZM1Z5Y21WdWRFUmxkbWxqWlZSNWNHVWlPaUpCSWl3aVkzVnljbVZ1ZEZCc1lYUm1iM0p0U1dRaU9pSTBNREk0WXpZNE5UYzBOVE0zWm1Oa01ERTNOR0ZtTmpjMU5tRTVOREk0T0NJc0luUnBiV1Y2YjI1bElqb2lRWE5wWVM5S1lXdGhjblJoSWl3aVlYVjBhRzl5YVhSNUlqb2lVazlNUlY5VlUwVlNJaXdpWlhod0lqb3hOekV3TVRneE5EQTJMQ0oxYzJWeVNXUWlPaUkwTURJNE5EaGxORGhoTVRobU5UUmlNREU0WVRoaU9HUXhOVGxtTldKaU5DSXNJbVJsZG1salpVbGtJam9pTVRJek5EVTJOemc1TUNJc0ltbGhkQ0k2TVRjeE1EQTVOVEF3Tml3aWRYTmxjbTVoYldVaU9pSnBkR052Y21VdWJXRnpkR1Z5WDNOME1rQjBjbll1WTI4dWFXUWlmUS5uWnYwTksycEpINU1SZkg1MGwzc2hWNGdKZk9Lb293aXdvcUd4aXRyOTJFIiwibWVyY2hhbnQiOiJnaWl0ZF90cmFuc3Zpc2lvbiJ9"}
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://lic.drmtoday.com/license-proxy-widevine/cenc/?specConform=true
-#EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://mncvision.id/userfiles/image/channel/hbo.png" group-title="Movies",HBO HD
+#EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://mncvision.id/userfiles/image/channel/hbo.png" group-title="Movies",HBO
 https://cdnjkt4.transvision.co.id:1000/live/master/3/4028c6856b6088c3016b87d64b970b53/manifest.mpd
 
 #EXTVLCOPT:http-referrer=https://www.cubmu.com/
@@ -286,8 +289,8 @@ https://cdnjkt4.transvision.co.id:1000/live/master/3/4028c6856b6088c3016b87d64b9
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://lic.drmtoday.com/license-proxy-widevine/cenc/?specConform=true
-#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJyYXNhamF0aV9zdGRAZ21haWwuY29tIiwic2Vzc2lvbklkIjoiZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SmpkWEp5Wlc1MFUyVnpjMmx2Ymtsa0lqb2lZalEzTkRFeFkyUXRObUZsWmkwME9XSTRMVGd6T0RBdFl6azFNakZpWXpFNE5UbGxJaXdpWTNWeWNtVnVkRVJsZG1salpWUjVjR1VpT2lKQklpd2lZM1Z5Y21WdWRGQnNZWFJtYjNKdFNXUWlPaUkwTURJNFl6WTROVGMwTlRNM1ptTmtNREUzTkdGbU5qYzFObUU1TkRJNE9DSXNJblJwYldWNmIyNWxJam9pUVhOcFlTOUtZV3RoY25SaElpd2lZWFYwYUc5eWFYUjVJam9pVWs5TVJWOVZVMFZTSWl3aVpYaHdJam94TnpBNE5qY3lNRFV5TENKMWMyVnlTV1FpT2lJME1ESTRORGhsTkRoa016TTBPR1UyTURFNFpHSmxOVE13TURJek5qTmtaU0lzSW1SbGRtbGpaVWxrSWpvaU1USXpORFUyTnpnNU1DSXNJbWxoZENJNk1UY3dPRFU0TlRZMU1pd2lkWE5sY201aGJXVWlPaUp5WVhOaGFtRjBhVjl6ZEdSQVoyMWhhV3d1WTI5dEluMC5pLURTekltYm1uZlB1ZFRSejlYWHhxbm42aHViZUtJbHVFdGdhWmdJeWZjIiwibWVyY2hhbnQiOiJnaWl0ZF90cmFuc3Zpc2lvbiJ9"}
-#EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://mncvision.id/userfiles/image/channel/hbo_family.png" group-title="Movies",HBO Family HD
+#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJpdGNvcmUubWFzdGVyX3N0MkB0cnYuY28uaWQiLCJzZXNzaW9uSWQiOiJleUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpJVXpJMU5pSjkuZXlKamRYSnlaVzUwVTJWemMybHZia2xrSWpvaU9EQm1abVZrWm1JdE56UXhNaTAwWm1NeUxXRTJPREV0TURSbE5UTTVNMlF5WW1GbUlpd2lZM1Z5Y21WdWRFUmxkbWxqWlZSNWNHVWlPaUpCSWl3aVkzVnljbVZ1ZEZCc1lYUm1iM0p0U1dRaU9pSTBNREk0WXpZNE5UYzBOVE0zWm1Oa01ERTNOR0ZtTmpjMU5tRTVOREk0T0NJc0luUnBiV1Y2YjI1bElqb2lRWE5wWVM5S1lXdGhjblJoSWl3aVlYVjBhRzl5YVhSNUlqb2lVazlNUlY5VlUwVlNJaXdpWlhod0lqb3hOekV3TVRneE5EQTJMQ0oxYzJWeVNXUWlPaUkwTURJNE5EaGxORGhoTVRobU5UUmlNREU0WVRoaU9HUXhOVGxtTldKaU5DSXNJbVJsZG1salpVbGtJam9pTVRJek5EVTJOemc1TUNJc0ltbGhkQ0k2TVRjeE1EQTVOVEF3Tml3aWRYTmxjbTVoYldVaU9pSnBkR052Y21VdWJXRnpkR1Z5WDNOME1rQjBjbll1WTI4dWFXUWlmUS5uWnYwTksycEpINU1SZkg1MGwzc2hWNGdKZk9Lb293aXdvcUd4aXRyOTJFIiwibWVyY2hhbnQiOiJnaWl0ZF90cmFuc3Zpc2lvbiJ9"}
+#EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://mncvision.id/userfiles/image/channel/hbo_family.png" group-title="Movies",HBO Family
 https://cdnjkt4.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d055927fe37a4/manifest.mpd
 
 #EXTVLCOPT:http-referrer=https://www.cubmu.com/
@@ -295,8 +298,8 @@ https://cdnjkt4.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d055927f
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://lic.drmtoday.com/license-proxy-widevine/cenc/?specConform=true
-#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJyYXNhamF0aV9zdGRAZ21haWwuY29tIiwic2Vzc2lvbklkIjoiZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SmpkWEp5Wlc1MFUyVnpjMmx2Ymtsa0lqb2lZalEzTkRFeFkyUXRObUZsWmkwME9XSTRMVGd6T0RBdFl6azFNakZpWXpFNE5UbGxJaXdpWTNWeWNtVnVkRVJsZG1salpWUjVjR1VpT2lKQklpd2lZM1Z5Y21WdWRGQnNZWFJtYjNKdFNXUWlPaUkwTURJNFl6WTROVGMwTlRNM1ptTmtNREUzTkdGbU5qYzFObUU1TkRJNE9DSXNJblJwYldWNmIyNWxJam9pUVhOcFlTOUtZV3RoY25SaElpd2lZWFYwYUc5eWFYUjVJam9pVWs5TVJWOVZVMFZTSWl3aVpYaHdJam94TnpBNE5qY3lNRFV5TENKMWMyVnlTV1FpT2lJME1ESTRORGhsTkRoa016TTBPR1UyTURFNFpHSmxOVE13TURJek5qTmtaU0lzSW1SbGRtbGpaVWxrSWpvaU1USXpORFUyTnpnNU1DSXNJbWxoZENJNk1UY3dPRFU0TlRZMU1pd2lkWE5sY201aGJXVWlPaUp5WVhOaGFtRjBhVjl6ZEdSQVoyMWhhV3d1WTI5dEluMC5pLURTekltYm1uZlB1ZFRSejlYWHhxbm42aHViZUtJbHVFdGdhWmdJeWZjIiwibWVyY2hhbnQiOiJnaWl0ZF90cmFuc3Zpc2lvbiJ9"}
-#EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://mncvision.id/userfiles/image/channel/hbo_hits.png" group-title="Movies",HBO Hits HD
+#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJpdGNvcmUubWFzdGVyX3N0MkB0cnYuY28uaWQiLCJzZXNzaW9uSWQiOiJleUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpJVXpJMU5pSjkuZXlKamRYSnlaVzUwVTJWemMybHZia2xrSWpvaU9EQm1abVZrWm1JdE56UXhNaTAwWm1NeUxXRTJPREV0TURSbE5UTTVNMlF5WW1GbUlpd2lZM1Z5Y21WdWRFUmxkbWxqWlZSNWNHVWlPaUpCSWl3aVkzVnljbVZ1ZEZCc1lYUm1iM0p0U1dRaU9pSTBNREk0WXpZNE5UYzBOVE0zWm1Oa01ERTNOR0ZtTmpjMU5tRTVOREk0T0NJc0luUnBiV1Y2YjI1bElqb2lRWE5wWVM5S1lXdGhjblJoSWl3aVlYVjBhRzl5YVhSNUlqb2lVazlNUlY5VlUwVlNJaXdpWlhod0lqb3hOekV3TVRneE5EQTJMQ0oxYzJWeVNXUWlPaUkwTURJNE5EaGxORGhoTVRobU5UUmlNREU0WVRoaU9HUXhOVGxtTldKaU5DSXNJbVJsZG1salpVbGtJam9pTVRJek5EVTJOemc1TUNJc0ltbGhkQ0k2TVRjeE1EQTVOVEF3Tml3aWRYTmxjbTVoYldVaU9pSnBkR052Y21VdWJXRnpkR1Z5WDNOME1rQjBjbll1WTI4dWFXUWlmUS5uWnYwTksycEpINU1SZkg1MGwzc2hWNGdKZk9Lb293aXdvcUd4aXRyOTJFIiwibWVyY2hhbnQiOiJnaWl0ZF90cmFuc3Zpc2lvbiJ9"}
+#EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://mncvision.id/userfiles/image/channel/hbo_hits.png" group-title="Movies",HBO Hits
 https://cdnjkt4.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d054fbf67379f/manifest.mpd
 
 #EXTVLCOPT:http-referrer=https://www.cubmu.com/
@@ -304,18 +307,18 @@ https://cdnjkt4.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d054fbf6
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://lic.drmtoday.com/license-proxy-widevine/cenc/?specConform=true
-#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJyYXNhamF0aV9zdGRAZ21haWwuY29tIiwic2Vzc2lvbklkIjoiZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SmpkWEp5Wlc1MFUyVnpjMmx2Ymtsa0lqb2lZalEzTkRFeFkyUXRObUZsWmkwME9XSTRMVGd6T0RBdFl6azFNakZpWXpFNE5UbGxJaXdpWTNWeWNtVnVkRVJsZG1salpWUjVjR1VpT2lKQklpd2lZM1Z5Y21WdWRGQnNZWFJtYjNKdFNXUWlPaUkwTURJNFl6WTROVGMwTlRNM1ptTmtNREUzTkdGbU5qYzFObUU1TkRJNE9DSXNJblJwYldWNmIyNWxJam9pUVhOcFlTOUtZV3RoY25SaElpd2lZWFYwYUc5eWFYUjVJam9pVWs5TVJWOVZVMFZTSWl3aVpYaHdJam94TnpBNE5qY3lNRFV5TENKMWMyVnlTV1FpT2lJME1ESTRORGhsTkRoa016TTBPR1UyTURFNFpHSmxOVE13TURJek5qTmtaU0lzSW1SbGRtbGpaVWxrSWpvaU1USXpORFUyTnpnNU1DSXNJbWxoZENJNk1UY3dPRFU0TlRZMU1pd2lkWE5sY201aGJXVWlPaUp5WVhOaGFtRjBhVjl6ZEdSQVoyMWhhV3d1WTI5dEluMC5pLURTekltYm1uZlB1ZFRSejlYWHhxbm42aHViZUtJbHVFdGdhWmdJeWZjIiwibWVyY2hhbnQiOiJnaWl0ZF90cmFuc3Zpc2lvbiJ9"}
-#EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://mncvision.id/userfiles/image/channel/hbo_signature.png" group-title="Movies",HBO Signature HD
+#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJpdGNvcmUubWFzdGVyX3N0MkB0cnYuY28uaWQiLCJzZXNzaW9uSWQiOiJleUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpJVXpJMU5pSjkuZXlKamRYSnlaVzUwVTJWemMybHZia2xrSWpvaU9EQm1abVZrWm1JdE56UXhNaTAwWm1NeUxXRTJPREV0TURSbE5UTTVNMlF5WW1GbUlpd2lZM1Z5Y21WdWRFUmxkbWxqWlZSNWNHVWlPaUpCSWl3aVkzVnljbVZ1ZEZCc1lYUm1iM0p0U1dRaU9pSTBNREk0WXpZNE5UYzBOVE0zWm1Oa01ERTNOR0ZtTmpjMU5tRTVOREk0T0NJc0luUnBiV1Y2YjI1bElqb2lRWE5wWVM5S1lXdGhjblJoSWl3aVlYVjBhRzl5YVhSNUlqb2lVazlNUlY5VlUwVlNJaXdpWlhod0lqb3hOekV3TVRneE5EQTJMQ0oxYzJWeVNXUWlPaUkwTURJNE5EaGxORGhoTVRobU5UUmlNREU0WVRoaU9HUXhOVGxtTldKaU5DSXNJbVJsZG1salpVbGtJam9pTVRJek5EVTJOemc1TUNJc0ltbGhkQ0k2TVRjeE1EQTVOVEF3Tml3aWRYTmxjbTVoYldVaU9pSnBkR052Y21VdWJXRnpkR1Z5WDNOME1rQjBjbll1WTI4dWFXUWlmUS5uWnYwTksycEpINU1SZkg1MGwzc2hWNGdKZk9Lb293aXdvcUd4aXRyOTJFIiwibWVyY2hhbnQiOiJnaWl0ZF90cmFuc3Zpc2lvbiJ9"}
+#EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://mncvision.id/userfiles/image/channel/hbo_signature.png" group-title="Movies",HBO Signature
 https://cdnjkt4.transvision.co.id:1000/live/master/3/4028c6856c3db2cc016d0552e0ca37a2/manifest.mpd
 
 #EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-user-agent=Lavf/58.1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJyYXNhamF0aV9zdGRAZ21haWwuY29tIiwic2Vzc2lvbklkIjoiZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SmpkWEp5Wlc1MFUyVnpjMmx2Ymtsa0lqb2lZalEzTkRFeFkyUXRObUZsWmkwME9XSTRMVGd6T0RBdFl6azFNakZpWXpFNE5UbGxJaXdpWTNWeWNtVnVkRVJsZG1salpWUjVjR1VpT2lKQklpd2lZM1Z5Y21WdWRGQnNZWFJtYjNKdFNXUWlPaUkwTURJNFl6WTROVGMwTlRNM1ptTmtNREUzTkdGbU5qYzFObUU1TkRJNE9DSXNJblJwYldWNmIyNWxJam9pUVhOcFlTOUtZV3RoY25SaElpd2lZWFYwYUc5eWFYUjVJam9pVWs5TVJWOVZVMFZTSWl3aVpYaHdJam94TnpBNE5qY3lNRFV5TENKMWMyVnlTV1FpT2lJME1ESTRORGhsTkRoa016TTBPR1UyTURFNFpHSmxOVE13TURJek5qTmtaU0lzSW1SbGRtbGpaVWxrSWpvaU1USXpORFUyTnpnNU1DSXNJbWxoZENJNk1UY3dPRFU0TlRZMU1pd2lkWE5sY201aGJXVWlPaUp5WVhOaGFtRjBhVjl6ZEdSQVoyMWhhV3d1WTI5dEluMC5pLURTekltYm1uZlB1ZFRSejlYWHhxbm42aHViZUtJbHVFdGdhWmdJeWZjIiwibWVyY2hhbnQiOiJnaWl0ZF90cmFuc3Zpc2lvbiJ9"}
+#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJpdGNvcmUubWFzdGVyX3N0MkB0cnYuY28uaWQiLCJzZXNzaW9uSWQiOiJleUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpJVXpJMU5pSjkuZXlKamRYSnlaVzUwVTJWemMybHZia2xrSWpvaU9EQm1abVZrWm1JdE56UXhNaTAwWm1NeUxXRTJPREV0TURSbE5UTTVNMlF5WW1GbUlpd2lZM1Z5Y21WdWRFUmxkbWxqWlZSNWNHVWlPaUpCSWl3aVkzVnljbVZ1ZEZCc1lYUm1iM0p0U1dRaU9pSTBNREk0WXpZNE5UYzBOVE0zWm1Oa01ERTNOR0ZtTmpjMU5tRTVOREk0T0NJc0luUnBiV1Y2YjI1bElqb2lRWE5wWVM5S1lXdGhjblJoSWl3aVlYVjBhRzl5YVhSNUlqb2lVazlNUlY5VlUwVlNJaXdpWlhod0lqb3hOekV3TVRneE5EQTJMQ0oxYzJWeVNXUWlPaUkwTURJNE5EaGxORGhoTVRobU5UUmlNREU0WVRoaU9HUXhOVGxtTldKaU5DSXNJbVJsZG1salpVbGtJam9pTVRJek5EVTJOemc1TUNJc0ltbGhkQ0k2TVRjeE1EQTVOVEF3Tml3aWRYTmxjbTVoYldVaU9pSnBkR052Y21VdWJXRnpkR1Z5WDNOME1rQjBjbll1WTI4dWFXUWlmUS5uWnYwTksycEpINU1SZkg1MGwzc2hWNGdKZk9Lb293aXdvcUd4aXRyOTJFIiwibWVyY2hhbnQiOiJnaWl0ZF90cmFuc3Zpc2lvbiJ9"}
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://lic.drmtoday.com/license-proxy-widevine/cenc/?specConform=true
-#EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://mncvision.id/userfiles/image/channel/cinemax.jpg" group-title="Movies",CINEMAX HD
+#EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://mncvision.id/userfiles/image/channel/cinemax.jpg" group-title="Movies",CINEMAX
 https://cdnjkt4.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cdbfc4a1934bf/manifest.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -544,6 +547,21 @@ https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd
 #EXTVLCOPT:http-user-agent=Lavf/58.1
 #EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_308.png" group-title="Sports",SPOTV 2
 https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+#EXTINF:-1 tvg-name="beIN Sports 1 ID" tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_DIGITAL_Mono.png" group-title="Sports",beIN Sports 1
+https://cdn08jtedge.indihometv.com/dassdvr/133/beib1/manifest.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+#EXTINF:-1 tvg-name="beIN Sports 3 ID" tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS3_DIGITAL_Mono.png" group-title="Sports",beIN Sports 3
+https://cdn08jtedge.indihometv.com/dassdvr/133/beib2/manifest.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+#EXTINF:-1 tvg-name="NBA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png" group-title="Sports",NBA TV
+https://cdn08jtedge.indihometv.com/dassdvr/133/nba/manifest.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
@@ -809,10 +827,11 @@ https://cempedak-live-cdn.mncnow.id/live/eds/CrimeInvestigation/sa_dash_vmx/Crim
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
 #EXTINF:-1 tvg-logo="https://mncvision.id/userfiles/image/channel/channel_93.png" group-title="Religi",Al Quran Al Kareem
+#https://op-group1-swiftservesd-1.dens.tv/s/s28/index.m3u8?app_type=web&userid=lite&chname=Quran_TV
 https://cempedak-live-cdn.mncnow.id/live/eds/AlQuranAlKareem/sa_dash_vmx/AlQuranAlKareem.mpd
 
 #EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-7xJ__ouF6os/VlZlmiGX23I/AAAAAAAAbr8/nqwBcUA00qA/s1600/saudi-sunnah-logo.png" group-title="Religi",AL Sunnah Nabawi
-http://210.210.155.35:80/session/1aa0f80a-2ef4-11eb-b0a7-c81f66f89318/qwr9ew/s/s27/01.m3u8
+https://op-group1-swiftservesd-1.dens.tv/s/s27/index.m3u8?app_type=web&userid=lite&chname=Sunna_TV
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
