@@ -1,4 +1,5 @@
 #EXTM3U
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rasajati/provider/main/xmltv.xml" refresh="3600"
 
 #EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://mncvision.id/userfiles/image/channel/sctv.png" group-title="Lokal",SCTV
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
