@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTM3U url-tvg="https://www.bevy.be/bevyfiles/singaporepremium2.xml.gz,https://www.bevy.be/bevyfiles/indonesiapremium3.xml.gz" refresh="3600"
+#EXTM3U url-tvg="https://www.bevy.be/bevyfiles/singaporepremium2.xml,https://www.bevy.be/bevyfiles/indonesiapremium3.xml" refresh="3600"
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
